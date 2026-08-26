@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bài 4</title>
+
+    
+</head>
+<body>
+    <h1>Form tạo thông tin</h1>
+    <form>
+        <!-- Input nếu không tuyền type thì -->
+        <!-- Type mặc định là text -->
+        <div>
+            <p>Họ và tên</p>
+            <input type="text" name="Họ và tên">
+        </div>
+        <div>
+            <P>Giới thiệu</P>
+            <textarea name="id">..</textarea> 
+        </div>
+        <div>
+            <p>Email</p><input type="email" name ="email">
+        </div>
+        <div>
+            <input type="submit" name=" ">
+        </div>
+        <div> 
+            <p><b>Số điện thoại</b></p>
+            <input name="Số điện thoại"
+            type="tel"
+            placeholder="Dạng số 123"
+            required
+            pattern="([0]){1}(-[9,3,6,8]){1}((-[0-9]{8}))">
+        </div>
+        
+        
+        <div>
+            <p><b>GIới tính</b></p>
+            <input type="radio" name="Giới tính" value="nam">Nam<br>
+            <input type="radio" name="Giới tính" value="nu">Nữ<br>
+            <!-- name phải luôn giống nhau -->
+        </div>
+         
+        <div>
+            <p><b>SỞ THÍCH</b></p>
+            Game<input type="checkbox" name="Sothich" value="game"><br>
+           Music <input type="checkbox" name="Sothich" value="music"><br>
+            Sport<input type="checkbox" name="Sothich" value="sport"><br>
+            <!-- name phải luôn giống nhau -->
+        </div>
+        <div>
+            <p><b>Trình duyệt web hay sử dụng</b></p>
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                </datalist>
+            <select name="browsers">
+                 <option value="Internet Explorer">Inernet Explorer</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Cốc cốc">Cốc cốc</option>
+            </select>
+        <div>
+        </div>
+            0 <input type="range" id="a" value="50"> 100
+        </div>
+        <div>
+            <input type="submit">
+            <button type="click">Click Me</button>
+            <input type="reset">
+        </div>
+       <iframe src="https://www.youtube.com/watch?v=bclndZ46r3w" title="FAMILY GUY" 
+       width="560"
+       height="315"
+       frameborder="0" 
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+       allowfullscreen></iframe>
+    </form>
+    <MARQUEE>
+        <img src="/Program Files/2121051050/ungdungweb/bai4/assets/images/niulai.jpg" alt="" width="200" height="200">
+    </MARQUEE>
+
+    <audio controls>
+        <source src="/Program Files/2121051050/ungdungweb/bai4/assets/audio/nhac.mp3" type="audio/mpeg">
+    </audio>
+
+    <video controls>
+        <source src="/Program Files/2121051050/ungdungweb/bai4/assets/video/video.mp4" type="video/mp4">
+    </video>
+    <!-- ví dụ thẻ H1 -->
+                
+                
+        </div>
+
+
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    
+</body>
+</html>
